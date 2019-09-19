@@ -29,7 +29,9 @@
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "^4.3.1",
         "jquery": "^3.4.1",
-        "set-value": "^3.0.1"
+        "lodash.template": "^4.5.0",
+        "set-value": "^3.0.1",
+        "tar": "^4.4.11"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
