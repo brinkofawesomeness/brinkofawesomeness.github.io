@@ -1,0 +1,25 @@
+.maintenance {
+	position:fixed;
+	background-image:url("images/404_background.jpg");
+	background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-ms-background-size:cover;
+	background-color:white;
+	height:800px;
+	width:100%;
+	z-index:400;
+}
+
+.comingsoon {
+	width:90%;
+	text-align:center;
+	margin-top:150px;
+	margin-left:5%;
+}
+
+.maintenance-img {
+	position:absolute;
+	margin-left:570px;
+	margin-top:-400px;
+}

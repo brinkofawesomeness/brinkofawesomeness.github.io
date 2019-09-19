@@ -1,0 +1,70 @@
+
+
+
+
+.form-sent {
+	height:800px;
+	width:100%;
+	background-image:url("images/catalog/sent-img.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:50% 50%;
+	z-index:500;
+}
+
+
+
+
+.thxtxt {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	margin-top:25%;
+	color:#fff;
+	text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.sent-links {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	list-style-type:none;
+	margin-top:38%;
+}
+
+.sent-link {
+	color:#757575;
+	font-size:25px;
+	transition:200ms;
+		-webkit-transition:200ms;
+		-moz-transition:200ms;
+		-ms-transition:200ms;
+}
+
+.sent-link:hover {
+	background-color:white;
+	text-decoration:none;
+	border-radius:50px;
+	transition:200ms;
+		-webkit-transition:200ms;
+		-moz-transition:200ms;
+		-ms-transition:200ms;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.senttxt {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	margin-top:725px;
+	color:#fff;
+}
+
+.slogan {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	margin-top:31%;
+	color:#fff;
+}

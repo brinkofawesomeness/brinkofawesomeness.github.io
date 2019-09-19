@@ -1,0 +1,242 @@
+
+
+
+
+/*	SPONSORS NAVIGATION BAR	 */
+
+
+
+
+.navHr2 {
+	position:relative;
+	width:130px;
+	border-color:#4c4c4c;
+	top:10px;
+	left:10px;
+}
+
+.glyphicon-home {
+	color:#ac1919 !important;
+}
+
+.glyphicon-home:hover {
+	color:#fff !important;
+}
+
+
+
+
+/* SPONSORS SECTION */
+
+
+
+
+#sponsors {
+	height:1600px;
+	width:100%;
+	background-color:#000;
+	position:relative;
+}
+
+#sponsors .spnsr-bg {
+	background-image:url("images/sponsors/BlogBackgroundFabric.gif.png");
+	background-repeat:repeat;
+	height:1600px;
+}
+
+.spnsr-bg {
+	position:fixed;
+	background-size:cover;
+		-webkit-background-size:cover; /* Chrome, Safari, Opera */
+		-moz-background-size:cover; /* firefox */
+		-ms-background-size:cover;  /* IE 9 */
+	width:100%;
+	transform: translateZ(0);
+		-webkit-transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+	z-index:1;
+}
+
+#ty {
+	height:800px;
+	position:relative;
+	top:0px;
+	z-index:3;
+}
+
+.ty-sponsors {
+	position:absolute;
+	color:white;
+	width:80%;
+	left:10%;
+	text-align:center;
+	top:200px;
+}
+
+#logos {
+	height:800px;
+	position:relative;
+	top:0px;
+	z-index:3;
+}
+
+#arrow-down {
+	position:relative !important;
+	top:600px !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.down {
+	position:relative !important;
+	left:12px !important;
+}
+
+.backdrop {
+	width:80%;
+	background-color:black;
+	opacity:.35;
+	filter:alpha(opacity=35);
+	height:150%;
+	position:absolute;
+	margin-top:-150px;
+	left:10%;
+	right:auto;
+	z-index:2;
+}
+
+.aap {
+	height:50px;
+	width:auto;
+	margin-left:16.4%;
+	margin-top:100px;
+	position:absolute;
+}
+
+.aap-label {
+	color:white;
+	position:absolute;
+	left:17.5%;
+	top:195px;
+}
+
+.berts {
+	height:100px;
+	width:auto;
+	margin-left:45.4%;
+	margin-top:60px;
+	position:absolute;
+}
+
+.berts-label {
+	color:white;
+	position:absolute;
+	left:42.7%;
+	top:195px;
+}
+
+.ffcu {
+	height:80px;
+	width:auto;
+	margin-left:68%;
+	margin-top:65px;
+	position:absolute;
+}
+
+.ffcu-label {
+	color:white;
+	position:absolute;
+	left:65.2%;
+	top:195px;
+}
+
+.kfc {
+	height:110px;
+	width:auto;
+	margin-left:19.3%;
+	margin-top:330px;
+	position:absolute;
+}
+
+.kfc-label {
+	color:white;
+	position:absolute;
+	left:22%;
+	top:480px;
+}
+
+.mpg {
+	height:100px;
+	width:auto;
+	margin-left:42.5%;
+	margin-top:330px;
+	position:absolute;
+}
+
+.mpg-label {
+	color:white;
+	position:absolute;
+	left:41%;
+	top:480px;
+}
+
+.aw {
+	height:100px;
+	width:auto;
+	margin-left:66%;
+	margin-top:330px;
+	position:absolute;
+}
+
+.aw-label {
+	color:white;
+	position:absolute;
+	left:72%;
+	top:480px;
+}
+
+.seaton {
+	height:60px;
+	width:auto;
+	margin-left:14%;
+	margin-top:615px;
+}
+
+.seaton-label {
+	color:white;
+	position:absolute;
+	left:17.2%;
+	top:725px;
+}
+
+.john {
+	height:110px;
+	width:auto;
+	left:42.8%;
+	margin-top:600px;
+	position:absolute;
+}
+
+.john-label {
+	color:white;
+	position:absolute;
+	left:37.3%;
+	top:725px;
+}
+
+.sloans {
+	height:100px;
+	width:auto;
+	left:68%;
+	margin-top:600px;
+	position:absolute;
+}
+
+.sloans-label {
+	color:white;
+	position:absolute;
+	left:66%;
+	top:725px;
+}
+

@@ -1,0 +1,48 @@
+
+https://veinternational.org/wp-content/uploads/2011/09/2015-Website-Advanced-Rubric.pdf
+
+http://codetheory.in/change-active-state-links-sticky-navigation-scroll/
+
+stack overflow
+
+w3schools
+
+
+
+
+//fix display issues on smaller and larger screens
+
+==============================================================================
+
+***HOME PAGE***
+
+
+//
+
+==============================================================================
+
+***CONTACT PAGE***
+
+
+//
+
+==============================================================================
+
+***CATALOG PAGE***
+
+
+//
+
+==============================================================================
+
+***ABOUT PAGE***
+
+
+//
+
+==============================================================================
+
+***SPONSOR PAGE***
+
+
+//
