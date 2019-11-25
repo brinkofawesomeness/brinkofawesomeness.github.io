@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CourseCal</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Google Fonts - Monterrat -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="coursecal/css/style.css">
+    </head>
+
+    <body onload="isSupported()">
+
+        <div id="dropZone">Drop yer PDFs here, if ye dare.</div>
+        <output id="list"></output>
+
+        <!-- jQuery, Popper.js, and Bootstrap -->
+        <script>
+            let $ = require('jquery');
+            require('popper.js');
+            require('bootstrap');
+        </script>
+        <!-- Font Awesome CDN -->
+        <script src="https://use.fontawesome.com/68e1c66338.js"></script>
+        <!-- Local scripts -->
+        <script src="coursecal/js/main.js"></script>
+    </body>
+</html>
