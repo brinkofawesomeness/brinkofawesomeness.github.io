@@ -1,17 +1,3 @@
-// CHECK TO MAKE SURE THE BROWSER CAN SUPPORT COURSECAL
-function isSupported() {
-    if (window.File && window.FileList && window.FileReader && window.Blob) {
-        //window.alert('File APIs supported!');
-    } else {
-        window.alert('CourseCal is not supported in this browser :(');
-    }
-}
-
-
-//=======================================================================================
-//=======================================================================================
-//=======================================================================================
-
 // NODE MODULES
 const fs = require('fs');
 //const { writeFileSync } = require('fs')
@@ -318,49 +304,3 @@ function weeksBetween(date1, date2) {
 
     return Math.floor(diff / WEEK)
 }
-
-//=======================================================================================
-//=======================================================================================
-//=======================================================================================
-
-
-// EXECUTE WHEN A FILE IS DROPPED
-function handlePDF(evt) {
-    evt.stopPropagation();
-    evt.preventDefault();
-    
-    var files = evt.dataTransfer.files;
-    var pdf = files[0];
-
-    // Check to make sure the file is valid
-    if (!pdf.type.match('application/pdf')) {
-        window.alert('Please provide a valid PDF');
-    } else {
-        window.alert('Received ' + pdf.name);
-
-        // Read the contents into memory
-        var reader = new FileReader();
-        reader.onload = (function(thePDF) {
-            return function(e) {
-                // do something with e.target.result
-                parseSchedule(e.target.result);
-            };
-        })(pdf);
-
-        reader.readAsArrayBuffer(pdf);
-    }
-}
-
-
-// EXECUTE WHEN A FILE IS DRAGGED OVER
-function handleDragOver(evt) {
-    evt.stopPropagation();
-    evt.preventDefault();
-    evt.dataTransfer.dropEffect = 'copy';
-}
-
-
-// SETUP DND LISTENERS
-var dropZone = document.getElementById('dropZone');
-dropZone.addEventListener('dragover', handleDragOver, false);
-dropZone.addEventListener('drop', handlePDF, false);
